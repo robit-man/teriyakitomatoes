@@ -59,7 +59,7 @@
   <a target="_blank" href="https://etherscan.io/address/0x5d2c6545d16e3f927a25b4567e39e2cf5076bef4">
 <img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
 </a>
-  <a target="_blank" href="https://kek.tools/t/kappa">
+  <a target="_blank" href="https://kek.tools/t/0x5d2c6545d16e3f927a25b4567e39e2cf5076bef4">
 <img src="~/@/assets/kek.png" alt="" class="middle-4 sibling-icon">
 </a>
   <a target="_blank" href="https://app.uniswap.org/#/add/0x5D2C6545d16e3f927a25b4567E39e2cf5076BeF4/ETH">
