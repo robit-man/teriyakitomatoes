@@ -35,8 +35,8 @@
     </h2>
     
     <div style="display:flex;margin:auto;">
-    <a href=""><img src="" alt=""></a>
-    <a href=""></a>
+    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img style="width:128px;" src="~/@/assets/twitter.svg" alt=""></a>
+    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img style="width:128px;" src="~/@/assets/discord.svg" alt=""></a>
     
     </div>
     <h2>More To Come!</h2>
