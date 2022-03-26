@@ -1,4 +1,4 @@
-# Kappa
+# Chicken Gladiators
 
 ## Project setup
 ```
