@@ -1,81 +1,74 @@
 <template>
   <div class="full-wrapper">
- 
-
-<div class="about-wrapper">
-  <div class="about-text">
-       <router-link :to="{ name: 'about' }" >
-      <h1 style="color:white;">KAPPA PROTOCOL <img src="~/@/assets/paper.png" style="height:24px;filter:invert(1);" alt="">
-      </h1>
-    </router-link>
-    </div>
-
-    <div class="logo-center-wrapper" style="">
-<div class="siblings greek-icons">
-  <a target="_blank" href="https://xiprotocol.io">
-<img src="~/@/assets/xi_token_icon_v0.1-48.png" alt="" class="sibling-icon">
-</a>
-  <a target="_blank" href="https://betaprotocol.io">
-<img src="~/@/assets/beta-13.png" alt="" class="middle-1 sibling-icon">
-</a>
-  <a target="_blank" href="https://gammaprotocol.io">
-<img src="~/@/assets/gamma-26.png" alt="" class="middle-2 sibling-icon">
-</a>
-  <a target="_blank" href="https://rhoprotocol.io">
-<img src="~/@/assets/rho_icon-06.png" alt="" class="sibling-icon">
-</a>
+  <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
+      <div class="button">CONNECT WALLET</div>
 </div>
-
-      <vh-copy class="para-desktop copy-button"
-      :data="'0x5D2C6545d16e3f927a25b4567E39e2cf5076BeF4'"
-      :confirm_dialog="'buefy'"
-      @copied="copiedData">
-
-<jj-parallax-card class="" lightColor="transparent" style="filter:invert(1);margin:auto; width: 512px; height: 512px;" @click="click">
+<jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto; width: 712px; max-width:calc(100vw - 2rem;);height: 200px;" @click="click">
       <div slot="front">
+      <h1 class="parallaxtoph1">CHICKEN GLADIATORS</h1>
+      <h2 style="text-align:center;">10,000 Unique Generative NFT's</h2>
+      <h2 style="text-align:center;">Prepare for Battle in the <b>P2E</b> Arena!</h2>
+      <!--
       <img src="~/@/assets/kappa-36.png" width="512px;" height="512px;" class="img-top" alt="">
+      -->
       </div>
 </jj-parallax-card>
 
-      </vh-copy>
+<div class="row">
 
-      <vh-copy class="para-mobile copy-button"
-      :data="'0x5D2C6545d16e3f927a25b4567E39e2cf5076BeF4'"
-      :confirm_dialog="'buefy'"
-      @copied="copiedData">
 
-<jj-parallax-card class="" lightColor="transparent" style="filter:invert(1);margin:auto; width: 300px; height: 300px;" @click="click">
-      <div slot="front">
-      <img src="~/@/assets/kappa-36.png" width="300px;" height="300px;" class="img-top" alt="">
-      </div>
-</jj-parallax-card>
+    <div class="gladiators">
+      <img src="~/@/assets/muscle_guy_sil.png" alt="">
 
-      </vh-copy>
- 
-<div class="siblings">
-  <a target="_blank" href="https://app.uniswap.org/#/swap?outputCurrency=0x5d2c6545d16e3f927a25b4567e39e2cf5076bef4">
-<img src="~/@/assets/uniswap.png" alt="" class="sibling-icon">
-</a>
-  <a target="_blank" href="https://etherscan.io/address/0x5d2c6545d16e3f927a25b4567e39e2cf5076bef4">
-<img src="~/@/assets/etherscan.png" alt="" class="middle-3 sibling-icon">
-</a>
-  <a target="_blank" href="https://kek.tools/t/0x5d2c6545d16e3f927a25b4567e39e2cf5076bef4">
-<img src="~/@/assets/kek.png" alt="" class="middle-4 sibling-icon">
-</a>
-  <a target="_blank" href="https://app.uniswap.org/#/add/0x5D2C6545d16e3f927a25b4567E39e2cf5076BeF4/ETH">
-<img src="~/@/assets/liquidity.png" alt="" class="sibling-icon">
-</a>
+    </div>
+
+    <div class="whitelist" style="width:512px;min-width:512px;"> 
+    
+     <h1 style="font-size:1.5rem;">OG Whitelist: OPEN NOW!</h1>
+     <br>   
+
+     <div class="button"><h2>JOIN WHITELIST</h2></div>
+    <br>
+     <br>
+     <h2>CLOSES IN: <br>
+        <Countdown deadline="April 1, 2022"></Countdown>
+    </h2>
+    
+    <div style="display:flex;margin:auto;">
+    <a href=""><img src="" alt=""></a>
+    <a href=""></a>
+    
+    </div>
+    <h2>More To Come!</h2>
+    <p>
+    Watch our social for further updates... 
+    <br><br>
+    </p>
+    <ul>
+    <li>Contests</li>
+    <li>Roadmap</li>
+    <li>Gitbook</li>
+    <li>Gallery</li>
+    <li>and More...</li>
+    </ul>
+
+
+    </div>
+    <div class="gladiators">
+    <img src="~/@/assets/fat_guy_sil.png" alt="">
+
+    </div>
+
+    <br>
+    <br>
+
 </div>
 
-</div>  
 <div class="about-text">
-   <Countdown deadline="October 1, 2022"></Countdown>
-    <h1>GEOMETRIC-1 LAUNCH</h1>
     </div>
 
 
     </div>
-  </div>
 </template>
 
 <script>
@@ -100,7 +93,21 @@ export default {
 };
 </script>
 <style scoped>
-.hasEffect {
+h2{font-size:1.5rem;}
+
+.parallaxtoph1{text-align:center;color:white!important;font-size:4rem;}
+.gladiators{max-height:420px;}
+  .gladiators > img{transition:all 0.2s ease;margin:auto;}
+  .gladiators > img:hover{transform:scale(1.1);}
+.whitelist{text-align:center;}
+.parallaxtop{}
+@media screen and (max-width:600px) {
+  .gladiators > img{margin:auto;max-height:256px;}
+  .row{flex-flow:column;}
+.parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 200px;}
+.parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:3rem!important;}
+
+}.hasEffect {
   cursor: pointer;
 }
 </style>

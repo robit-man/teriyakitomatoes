@@ -1,7 +1,8 @@
 @import '~@vue/ui/dist/vue-ui.css';
 @import '~primer-support/index.scss';
 @import './assets/fonts/iconfont.css';
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Marcellus+SC&display=swap');
+
 $primary: #fff;
 $secondary: #000;
 $trinary: #000;
@@ -10,9 +11,9 @@ $bg-color: #000;
 $bg-disabled: #000;
 $text-disabled: #888888;
 
-$body-font-size: 17px;
+$body-font-size: 1.2rem;
 $border-radius: 0px;
-$h1-size: 32px;
+$h1-size: 3rem;
 $body-line-height: 1.2;
 $border: 1px solid $bg-color;
 
@@ -20,23 +21,18 @@ $border: 1px solid $bg-color;
   outline: none;
 }
 
-@font-face {
-  font-family: Helios;
-  src: url("./assets/fonts/Helios_Rounded.otf") format("opentype");
-}
-
 @import '~@primer/css/index.scss';
 
 html, body, #app {
   color: white;
   letter-spacing:5px;
-  font-family: Helios;
+      font-family: 'Marcellus SC', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-shadow:0px 0px 0.5px;overflow:hidden!important;
 
 }
-body{top:0px;left:0px;width:100%;background-image:url("./assets/noise.gif");
+body{top:0px;left:0px;width:100%;  background-image:url('./assets/Bg5.png');
   position:absolute;}
 .logo-center-wrapper{
   margin-bottom:0.5rem;
@@ -83,7 +79,8 @@ body{top:0px;left:0px;width:100%;background-image:url("./assets/noise.gif");
   .data-title{ padding:1rem 0rem;  font-family: 'Space Mono', monospace!important;
     letter-spacing:1px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}
 .full-wrapper{display:flex;flex-flow:column;justify-content: center;height:100vh;
-  background-image:radial-gradient(#333e, #000e); }
+  background-image:radial-gradient(#33333382, #000e);
+  backdrop-filter: blur(5px); }
 .copy-icon{clip-path: circle(50% at 50% 50%);
   position:absolute;
   top:0px;
@@ -111,7 +108,7 @@ background-repeat:no-repeat;margin-bottom: -31px;
   &:nth-child(4){margin-top: 24px;transform:rotate(180deg);  
     img{transform:rotate(180deg);}}
 img{height:64px!important;margin:auto;margin-bottom:46px;}}
-.toast{  font-family: Helios;
+.toast{      font-family: 'Marcellus SC', serif;
   background-color:transparent!important;
   position:fixed;left:0px;top:0px;
   line-height:24px;padding-left:32px;
@@ -161,9 +158,9 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
   min-height: 100vh;
   overflow: hidden;
 }
-
-h1, h2, h3, .button {
-  font-family: Helios;
+h1{    font-family: 'Bangers', cursive;}
+h2, h3, .button {
+      font-family: 'Marcellus SC', serif;
       font-weight:800;
 }
 
@@ -304,10 +301,10 @@ nav{
   margin:unset;
   top:0px;
   left:0px;
-  background-size:auto;
+  background-size:cover;
   background-attachment:fixed;
   background-position:center;
-  background-image:url('./assets/noise.gif');
+  background-image:url('./assets/Bg5.png');
 }
 @keyframes flow {
   0%{filter:blur(0.5px)sepia(0)invert(1);}
