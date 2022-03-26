@@ -3,11 +3,11 @@
   <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
       <div class="button">CONNECT WALLET</div>
 </div>
-<jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto; width: 712px; max-width:calc(100vw - 2rem;);height: 200px;" @click="click">
-      <div slot="front">
+<jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:1rem; width: 100%; max-width:calc(100vw - 2rem;);min-height:140px;" @click="click">
+      <div slot="front" style="">
       <h1 class="parallaxtoph1">CHICKEN GLADIATORS</h1>
-      <h2 style="text-align:center;">10,000 Unique Generative NFT's</h2>
-      <h2 style="text-align:center;">Prepare for Battle in the <b>P2E</b> Arena!</h2>
+      <h2 style="text-align:center;font-size:1rem;">10,000 Unique Generative NFT's</h2>
+      <h2 style="text-align:center;font-size:1rem;">Prepare for Battle in the <b>P2E</b> Arena!</h2>
       <!--
       <img src="~/@/assets/kappa-36.png" width="512px;" height="512px;" class="img-top" alt="">
       -->
@@ -33,12 +33,15 @@
      <h2>CLOSES IN: <br>
         <Countdown deadline="April 1, 2022"></Countdown>
     </h2>
-    
-    <div style="display:flex;margin:auto;">
-    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img style="width:128px;" src="~/@/assets/twitter.svg" alt=""></a>
-    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img style="width:128px;" src="~/@/assets/discord.svg" alt=""></a>
+        <br>
+
+    <div style="display:flex;margin:auto;flex-flow:row;justify-content:center;">
+    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img style="width:64px;" src="~/@/assets/twitter.svg" alt=""></a>
+    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img style="width:64px;" src="~/@/assets/discord.svg" alt=""></a>
     
     </div>
+        <br>
+
     <h2>More To Come!</h2>
     <p>
     Watch our social for further updates... 
@@ -94,7 +97,9 @@ export default {
 </script>
 <style scoped>
 h2{font-size:1.5rem;}
-
+.parallax-card.front{
+    width: max-content!important;
+    height: fit-content!important;min-height:200px;}
 .parallaxtoph1{text-align:center;color:white!important;font-size:4rem;}
 .gladiators{max-height:420px;}
   .gladiators > img{transition:all 0.2s ease;margin:auto;}
@@ -102,7 +107,8 @@ h2{font-size:1.5rem;}
 .whitelist{text-align:center;}
 .parallaxtop{}
 @media screen and (max-width:600px) {
-  .gladiators > img{margin:auto;max-height:256px;}
+   .gladiators{display:flex;flex-flow:row;justify-content:center;}
+  .gladiators > img{margin:auto;max-height:128px;;}
   .row{flex-flow:column;}
 .parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 200px;}
 .parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:3rem!important;}

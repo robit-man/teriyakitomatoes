@@ -78,7 +78,7 @@ body{top:0px;left:0px;width:100%;  background-image:url('./assets/Bg5.png');
 
   .data-title{ padding:1rem 0rem;  font-family: 'Space Mono', monospace!important;
     letter-spacing:1px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}
-.full-wrapper{display:flex;flex-flow:column;justify-content: center;height:100vh;
+.full-wrapper{display:flex;flex-flow:column;overflow-y:auto;height:100vh;overflow-x:hidden;
   background-image:radial-gradient(#33333382, #000e);
   backdrop-filter: blur(5px); }
 .copy-icon{clip-path: circle(50% at 50% 50%);
