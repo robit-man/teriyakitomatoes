@@ -1,7 +1,7 @@
 <template>
   <div class="full-wrapper">
   <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
-      <div class="button">CONNECT WALLET</div>
+      <div class="button connectwallet">CONNECT WALLET</div>
 </div>
 <jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:auto; margin-bottom:2rem;width: 100%; max-width:calc(100vw - 2rem;);min-height:140px;" @click="click">
       <div slot="front" style="">
@@ -25,16 +25,16 @@
     <div class="whitelist" style="width:512px;min-width:512px;"> 
     
      <h1 style="font-size:2.5rem;text-shadow:3px 3px black, 0px 0px 5px ;">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1>
-     <br>   
+<p>
+           Only 100 Spots Max
+</p>    <br>
 
      <div class="button joinbutton" >JOIN WHITELIST</div>
-    <br>
+     <br>
      <br>
      <h2>CLOSES IN: <br>
         <Countdown deadline="April 1, 2022"></Countdown>    </h2>
-<p>
-           Only 100 Spots Max
-</p>
+
         <br>
         <br>
 <p>
@@ -48,15 +48,6 @@
     </div>
         <br>
 
-    <h2>More To Come!</h2>
-  <br>
-    <ul>
-    <li>Contests</li>
-    <li>Roadmap</li>
-    <li>Gitbook</li>
-    <li>Gallery</li>
-    <li>and More...</li>
-    </ul>
 
 
     </div>
@@ -113,7 +104,8 @@ h2{font-size:1.5rem;}
 .parallaxtop{}
 .joinbutton{transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
 .joinbutton:hover{background-color:black;border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
-.connectwallet{background-color:transparent;border:1px solid white;font-size:1.5rem;box-shadow:0px 2px black;color:white;}
+.connectwallet{background-color:transparent;border:1px solid white;box-shadow:0px 2px black;color:white;transition:all 0.2s ease;}
+.connectwallet:hover{background-color:white;border:1px solid white;box-shadow:0px 2px black;color:black;}
 @media screen and (max-width:600px) {
    .gladiators{display:flex;flex-flow:row;justify-content:center;}
   .gladiators > img{margin:auto;max-height:128px;;}
