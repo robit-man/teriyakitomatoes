@@ -24,25 +24,26 @@
 
     <div class="whitelist" style="width:512px;min-width:512px;"> 
     
-     <h1 style="font-size:2.5rem;text-shadow:2px 2px black;">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1>
+     <h1 style="font-size:2.5rem;text-shadow:3px 3px black, 0px 0px 5px ;">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1>
      <br>   
 
      <div class="button joinbutton" >JOIN WHITELIST</div>
     <br>
      <br>
      <h2>CLOSES IN: <br>
-        <Countdown deadline="April 1, 2022"></Countdown>
+        <Countdown deadline="April 1, 2022"></Countdown>    </h2>
+<p>
            Only 100 Spots Max
-
-    </h2>
+</p>
+        <br>
         <br>
 <p>
     Watch our social for further updates... 
     <br><br></p>
     
     <div style="display:flex;margin:auto;flex-flow:row;justify-content:center;">
-    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img style="width:64px;margin-left:1rem;margin-right:1rem;" src="~/@/assets/twitter.svg" alt=""></a>
-    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img style="width:64px;margin-left:1rem;margin-right:1rem;" src="~/@/assets/discord.svg" alt=""></a>
+    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img class="socialicon" src="~/@/assets/twitter.svg" alt=""></a>
+    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img class="socialicon" src="~/@/assets/discord.svg" alt=""></a>
     
     </div>
         <br>
@@ -107,8 +108,11 @@ h2{font-size:1.5rem;}
   .gladiators > img{transition:all 0.2s ease;margin:auto;}
   .gladiators > img:hover{transform:scale(1.1);}
 .whitelist{text-align:center;}
+.socialicon{width:64px;margin-left:1rem;margin-right:1rem;transition:all 0.2s ease;}
+.socialicon:hover{transform:scale(1.1);}
 .parallaxtop{}
-.joinbutton{background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 2px black;}
+.joinbutton{transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
+.joinbutton:hover{background-color:black;border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
 .connectwallet{background-color:transparent;border:1px solid white;font-size:1.5rem;box-shadow:0px 2px black;color:white;}
 @media screen and (max-width:600px) {
    .gladiators{display:flex;flex-flow:row;justify-content:center;}
