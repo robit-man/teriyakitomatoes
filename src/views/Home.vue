@@ -32,6 +32,8 @@
      <br>
      <h2>CLOSES IN: <br>
         <Countdown deadline="April 1, 2022"></Countdown>
+           Only 100 Spots Max
+
     </h2>
         <br>
 <p>
@@ -39,8 +41,8 @@
     <br><br></p>
     
     <div style="display:flex;margin:auto;flex-flow:row;justify-content:center;">
-    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img style="width:64px;" src="~/@/assets/twitter.svg" alt=""></a>
-    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img style="width:64px;" src="~/@/assets/discord.svg" alt=""></a>
+    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img style="width:64px;margin-left:1rem;margin-right:1rem;" src="~/@/assets/twitter.svg" alt=""></a>
+    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img style="width:64px;margin-left:1rem;margin-right:1rem;" src="~/@/assets/discord.svg" alt=""></a>
     
     </div>
         <br>
