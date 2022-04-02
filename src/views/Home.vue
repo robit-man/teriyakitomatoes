@@ -108,6 +108,7 @@ p{max-width:calc(100vw - 4rem);margin:auto;}
 .connectwallet{background-color:transparent;border:1px solid white;box-shadow:0px 2px black;color:white;margin-bottom:2rem;transition:all 0.2s ease;}
 .connectwallet:hover{background-color:white;border:1px solid white;box-shadow:0px 2px black;color:black;}
 @media screen and (max-width:600px) {
+  h1{font-size:2rem!important;max-width:calc(100vw - 4rem);margin:auto;}
    .gladiators{display:flex;flex-flow:row;justify-content:center;}
   .gladiators > img{margin:auto;max-height:128px;;}
   .row{flex-flow:column;}
