@@ -3,7 +3,7 @@
   <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
       <div class="button connectwallet">CONNECT WALLET</div>
 </div>
-<jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:auto; margin-bottom:unset!important;width: 100%; max-width:calc(100vw - 2rem;);min-height:140px;" @click="click">
+<jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:auto; margin-bottom:unset!important;width: 100%; max-width:calc(100vw - 2rem;);min-height:120px;" @click="click">
       <div slot="front" style="">
       <h1 class="parallaxtoph1">CHICKEN GLADIATORS</h1>
       <h2 style="text-align:center;font-size:1rem;">10,000 Unique Generative NFT's</h2>
@@ -19,6 +19,7 @@
 
     <div class="gladiators">
       <img src="~/@/assets/muscle_guy_sil.png" alt="">
+    <img class="nodesktop" src="~/@/assets/fat_guy_sil.png" alt="">
 
     </div>
 
@@ -51,8 +52,8 @@
 
 
     </div>
-    <div class="gladiators">
-    <img src="~/@/assets/fat_guy_sil.png" alt="">
+    <div class="gladiators" >
+    <img class="nomobile" src="~/@/assets/fat_guy_sil.png" alt="">
 
     </div>
 
@@ -102,18 +103,21 @@ p{max-width:calc(100vw - 4rem);margin:auto;}
 .whitelist{text-align:center;}
 .socialicon{width:64px;margin-left:1rem;margin-right:1rem;transition:all 0.2s ease;}
 .socialicon:hover{transform:scale(1.1);}
-.parallaxtop{}
+.parallaxtop{}  .nodesktop{display:none;}
+
 .joinbutton{transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
 .joinbutton:hover{background-color:black;border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
 .connectwallet{background-color:transparent;border:1px solid white;box-shadow:0px 2px black;color:white;margin-bottom:2rem;transition:all 0.2s ease;}
 .connectwallet:hover{background-color:white;border:1px solid white;box-shadow:0px 2px black;color:black;}
 @media screen and (max-width:600px) {
+  .nomobile{display:none;}
+  .nodesktop{display:block;}
   h1{font-size:2rem!important;max-width:calc(100vw - 4rem);margin:auto;}
    .gladiators{display:flex;flex-flow:row;justify-content:center;}
   .gladiators > img{margin:auto;max-height:128px;;}
   .row{flex-flow:column;}
-.parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 200px;}
-.parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:2rem!important;}
+.parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 120px;}
+.parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:2.5rem!important;}
 
 }.hasEffect {
   cursor: pointer;
