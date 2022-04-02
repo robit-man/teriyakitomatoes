@@ -42,8 +42,8 @@
     <br><br></p>
     
     <div style="display:flex;margin:auto;flex-flow:row;justify-content:center;">
-    <a target="_blank" href="https://twitter.com/ChickenGladsNFT "><img class="socialicon" src="~/@/assets/twitter.svg" alt=""></a>
-    <a target="_blank" href="https://discord.gg/d9MqkSG6 "><img class="socialicon" src="~/@/assets/discord.svg" alt=""></a>
+    <a target="_blank" href="https://twitter.com/ChickenGladsNFT"><img class="socialicon" src="~/@/assets/twitter.svg" alt=""></a>
+    <a target="_blank" href="https://discord.gg/hXGhBRrcMn"><img class="socialicon" src="~/@/assets/discord.svg" alt=""></a>
     
     </div>
         <br>
