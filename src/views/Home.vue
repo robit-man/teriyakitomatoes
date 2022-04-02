@@ -1,8 +1,8 @@
 <template>
   <div class="full-wrapper">
-  <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
+<!--  <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
       <div class="button connectwallet">CONNECT WALLET</div>
-</div>
+</div>-->
 <jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:auto; margin-bottom:unset!important;width: 100%; max-width:calc(100vw - 2rem;);min-height:120px;" @click="click">
       <div slot="front" style="">
       <h1 class="parallaxtoph1">CHICKEN GLADIATORS</h1>
