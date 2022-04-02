@@ -23,7 +23,7 @@
 
     </div>
 
-    <div class="whitelist" style="width:512px;max-width:calc(100vw - 4rem);margin:auto;"> 
+    <div class="whitelist" style="width:512px;max-width:calc(100vw - 2rem);margin:auto;"> 
     
      <h1 style="">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1>
 <p>
@@ -116,8 +116,8 @@ p{max-width:calc(100vw - 4rem);margin:auto;}
    .gladiators{display:flex;flex-flow:row;justify-content:center;}
   .gladiators > img{margin:auto;max-height:128px;;}
   .row{flex-flow:column;}
-.parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 120px;}
-.parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:2rem!important;}
+.parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 160px;}
+.parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:2rem!important;padding-top:40px;}
 
 }.hasEffect {
   cursor: pointer;
