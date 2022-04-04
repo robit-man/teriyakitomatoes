@@ -6,8 +6,7 @@
 <jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:auto; margin-bottom:unset!important;width: 100%; max-width:calc(100vw - 2rem;);min-height:120px;" @click="click">
       <div slot="front" style="">
       <h1 class="parallaxtoph1">CHICKEN GLADIATORS</h1>
-      <h2 style="text-align:center;font-size:1rem;">10,000 Unique Generative NFT's</h2>
-      <h2 style="text-align:center;font-size:1rem;">Prepare for Battle in the <b>P2E</b> Arena!</h2>
+      <h2 style="text-align:center;font-size:1rem;">10,000 Unique NFT's Prepare for Battle in the <b>P2E</b> Arena!</h2>
       <!--
       <img src="~/@/assets/kappa-36.png" width="512px;" height="512px;" class="img-top" alt="">
       -->
