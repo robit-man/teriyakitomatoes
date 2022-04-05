@@ -91,17 +91,17 @@ p{max-width:calc(100vw - 4rem);margin:auto;}
     width: max-content!important;
     height: fit-content!important;min-height:200px;}
 .parallaxtoph1{text-align:center;color:white!important;font-size:4rem;}
-.gladiators{display:flex;flex-flow:wrap;
+.gladiators{width:30%;display:flex;flex-flow:wrap;
 justify-content:center;}
 .gladiators2{display:none;flex-flow:wrap;
 justify-content:center;}
-  .gladiators > img{transition:all 0.2s ease;margin:auto;max-width:512px;}
+  .gladiators > img{transition:all 0.2s ease;margin:auto;max-width:100%;}
   .gladiators > img:hover{transform:scale(1.1);}  .gladiators2 > img{transition:all 0.2s ease;margin:auto;max-width:512px;}
   .gladiators2 > img:hover{transform:scale(1.1);}
 .whitelist{text-align:center;}
 .socialicon{width:64px;margin-left:1rem;margin-right:1rem;transition:all 0.2s ease;}
 .socialicon:hover{transform:scale(1.1);}
-.parallaxtop{font-size:4rem;}  .nodesktop{display:none;}
+.parallaxtop{font-size:4rem;padding-top:1rem;}  .nodesktop{display:none;}
   .row{height:100%;}
 
 .joinbutton{padding: 1rem;
