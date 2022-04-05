@@ -17,22 +17,17 @@ $h1-size: 3rem;
 $body-line-height: 1.2;
 $border: 1px solid $bg-color;
 
-* {
-  outline: none;
-}
-
 @import '~@primer/css/index.scss';
 
 html, body, #app {
   color: white;
-  letter-spacing:5px;
       font-family: 'Marcellus SC', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-shadow:0px 0px 0.5px;overflow:hidden!important;
+
 
 }
-body{top:0px;left:0px;width:100%;  background-image:url('./assets/Bg5.png');
+body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;  background-image:url('./assets/Bg5.png'),url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F749ed17c3eb5275da1f3156fd31cb5ae%2Ftenor.gif%3Fitemid%3D11651213&f=1&nofb=1');background-blend-mode:hard-light;
   position:absolute;}
 .logo-center-wrapper{
   margin-bottom:0.5rem;
@@ -158,8 +153,8 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
   min-height: 100vh;
   overflow: hidden;
 }
-h1{   text-shadow:2px 2px black; font-family: 'Bangers', cursive;}
-h2, h3 {text-shadow:2px 2px black;
+h1{ font-size:3rem;  text-shadow:2px 2px black; font-family: 'Bangers', cursive;}
+h2, h3 { font-size:2rem;text-shadow:2px 2px black;
   font-family: 'Marcellus SC', serif;
   font-weight:800;
 }

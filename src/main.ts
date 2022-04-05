@@ -11,16 +11,11 @@ import numberFormats from '@/helpers/number.json';
 import VueParticles from 'vue-particles';
 import '@/style.scss';
 import VueAframe from 'vue-aframe';
-import VaahVueClickToCopy from 'vaah-vue-clicktocopy'
-import Buefy from 'buefy';
-import 'buefy/dist/buefy.css';
 
-Vue.use(Buefy);
 Vue.use(VueAframe);
 Vue.use(VueParticles);
 Vue.use(VueUi);
 Vue.use(VueI18n);
-Vue.component('vh-copy', VaahVueClickToCopy)
 
 const i18n = new VueI18n({ locale: 'en', messages, numberFormats });
 

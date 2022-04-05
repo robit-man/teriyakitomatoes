@@ -3,17 +3,8 @@
 <!--  <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
       <div class="button connectwallet">CONNECT WALLET</div>
 </div>-->
-<jj-parallax-card class="parallaxtop" lightColor="transparent" style="margin:auto;margin-top:auto; margin-bottom:unset!important;width: 100%; max-width:calc(100vw - 2rem;);min-height:120px;" @click="click">
-      <div slot="front" style="">
-      <h1 class="parallaxtoph1">CHICKEN GLADIATORS</h1>
-      <h2 style="text-align:center;font-size:1rem;">10,000 Unique NFT's Prepare for Battle in the <b>P2E</b> Arena!</h2>
-      <!--
-      <img src="~/@/assets/kappa-36.png" width="512px;" height="512px;" class="img-top" alt="">
-      -->
-      </div>
-</jj-parallax-card>
 
-<div class="row">
+<div class="row" style="margin:auto;">
 
 
     <div class="gladiators">
@@ -23,8 +14,14 @@
     </div>
 
     <div class="whitelist" style="width:512px;max-width:calc(100vw - 2rem);margin:auto;"> 
-    
-     <h1 style="">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1>
+     <h1 class="parallaxtop">CHICKEN GLADIATORS</h1><br>
+      <h2 style="">10,000 Unique NFT's Prepare for Battle in the <b>P2E</b> Arena!</h2><br>
+        <div class="gladiators2">
+      <img src="~/@/assets/muscle_guy_sil.png" alt="">
+    <img src="~/@/assets/fat_guy_sil.png" alt="">
+
+    </div>
+     <h1 style="">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1><br>
 <p>
            Only 100 Spots Max
 </p>    <br>
@@ -70,7 +67,6 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import JJParallaxCard from 'jj-parallax-card'
 import Countdown from 'vuejs-countdown'
 export default {
   data() {
@@ -84,7 +80,6 @@ export default {
   },
  components: {
    Countdown,
-  'jj-parallax-card':JJParallaxCard,
     
   },
 };
@@ -96,26 +91,34 @@ p{max-width:calc(100vw - 4rem);margin:auto;}
     width: max-content!important;
     height: fit-content!important;min-height:200px;}
 .parallaxtoph1{text-align:center;color:white!important;font-size:4rem;}
-.gladiators{max-height:420px;}
-  .gladiators > img{transition:all 0.2s ease;margin:auto;}
-  .gladiators > img:hover{transform:scale(1.1);}
+.gladiators{display:flex;flex-flow:wrap;
+justify-content:center;}
+.gladiators2{display:none;flex-flow:wrap;
+justify-content:center;}
+  .gladiators > img{transition:all 0.2s ease;margin:auto;max-width:512px;}
+  .gladiators > img:hover{transform:scale(1.1);}  .gladiators2 > img{transition:all 0.2s ease;margin:auto;max-width:512px;}
+  .gladiators2 > img:hover{transform:scale(1.1);}
 .whitelist{text-align:center;}
 .socialicon{width:64px;margin-left:1rem;margin-right:1rem;transition:all 0.2s ease;}
 .socialicon:hover{transform:scale(1.1);}
-.parallaxtop{}  .nodesktop{display:none;}
+.parallaxtop{font-size:4rem;}  .nodesktop{display:none;}
+  .row{height:100%;}
 
-.joinbutton{transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
+.joinbutton{padding: 1rem;
+border-radius: 0.25rem;
+color: black;transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
 .joinbutton:hover{background-color:black;border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
 .connectwallet{background-color:transparent;border:1px solid white;box-shadow:0px 2px black;color:white;margin-bottom:2rem;transition:all 0.2s ease;}
 .connectwallet:hover{background-color:white;border:1px solid white;box-shadow:0px 2px black;color:black;}
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) {.gladiators2{display:flex;flex-flow:wrap;
+justify-content:center;}
   .nomobile{display:none;}
-  .nodesktop{display:block;}
+  .nodesktop{display:block;}h2{font-size:1rem;}
   h1{font-size:2rem!important;max-width:calc(100vw - 4rem);margin:auto;}
-   .gladiators{display:flex;flex-flow:row;justify-content:center;}
-  .gladiators > img{margin:auto 2rem;max-height:128px;;}
-  .row{flex-flow:column;}
-.parallaxtop{transition:all 0.2s ease;margin:auto; width: 100%; height: 180px;}
+   .gladiators{display:none;flex-flow:row;justify-content:center;}
+  .gladiators > img{margin:auto 2rem;max-height:128px;}  .gladiators2 > img{margin:auto 2rem;max-height:128px;}
+  .row{flex-flow:column;}  .gladiators2{display:flex;flex-flow:row;}
+.parallaxtop{transition:all 0.2s ease;padding-top:2rem;}
 .parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:2rem!important;padding-top:40px;}
 
 }.hasEffect {
