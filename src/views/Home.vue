@@ -21,7 +21,7 @@
     <img src="~/@/assets/fat_guy_sil.png" alt="">
 
     </div>
-     <h1 style="">OG Whitelist: <b style="color:indianred;"><br>OPEN NOW!</b></h1><br>
+     <h1 style="">OG Whitelist: <b style="color:indianred;"><br class="nodesktop">OPEN NOW!</b></h1><br>
 <p>
            Only 100 Spots Max
 </p>    <br>
