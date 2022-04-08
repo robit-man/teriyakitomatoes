@@ -15,13 +15,13 @@
 
     <div class="whitelist" style="width:512px;max-width:calc(100vw - 2rem);margin:auto;"> 
      <h1 class="parallaxtop">CHICKEN GLADIATORS</h1><br>
-      <h2 style="">10,000 Unique NFT's Prepare for Battle in the <b>P2E</b> Arena!</h2><br>
+      <h2 style="">10,000 Unique NFTs <br>Prepare for Battle in the <b>P2E</b> Arena!</h2><br>
         <div class="gladiators2">
       <img src="~/@/assets/muscle_guy_sil.png" alt="">
     <img src="~/@/assets/fat_guy_sil.png" alt="">
 
     </div>
-     <h1 style="">OG Whitelist: <b style="color:indianred;">OPEN NOW!</b></h1><br>
+     <h1 style="">OG Whitelist: <b style="color:indianred;"><br>OPEN NOW!</b></h1><br>
 <p>
            Only 100 Spots Max
 </p>    <br>
@@ -107,7 +107,7 @@ justify-content:center;}
 .joinbutton{padding: 1rem;
 border-radius: 0.25rem;
 color: black;transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
-.joinbutton:hover{background-color:black;border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
+.joinbutton:hover{background-color:black;transform:scale(1.1);border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
 .connectwallet{background-color:transparent;border:1px solid white;box-shadow:0px 2px black;color:white;margin-bottom:2rem;transition:all 0.2s ease;}
 .connectwallet:hover{background-color:white;border:1px solid white;box-shadow:0px 2px black;color:black;}
 @media screen and (max-width:600px) {.gladiators2{display:flex;flex-flow:wrap;
