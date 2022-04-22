@@ -11,7 +11,7 @@
 </div>
 
 
-<div class="row-wrapper" style="background-color:#ccc;padding:2rem;">
+<div class="row-wrapper" style="background-color:#b6b0e6;padding:2rem;">
   <div class="row" style="display:flex;flex-flow:row;justify-content:center;">
   
     <div class="charbox" style="margin:0rem 1rem;">
@@ -98,11 +98,11 @@
 
 
 
-<div class="row-wrapper" style="background-color:#ccc;padding:2rem;">
+<div class="row-wrapper" style="background-color:#b6b0e6;padding:2rem;">
 <br><br> <h3 style=" text-align:center;font-size:3rem;color:white;">The TomatoVerse NFT Ecosystem </h3><br><br><br>
   <div class="row" style="display:flex;flex-flow:row;justify-content:center;">
   
-    <div class="charbox" style="margin:0rem 1rem;">
+    <div class="charbox" style="margin:0rem 1rem;max-width:400px;">
       <img src="~/@/assets/tomato/Final2.png" style="width:400px;max-width:100%" alt="">
       <div class="desc" style="text-shadow:unset!important;color:black;">
       <br>
@@ -118,7 +118,7 @@
       </div>
     </div>
     
-    <div class="charbox" style="margin:0rem 1rem;">
+    <div class="charbox" style="margin:0rem 1rem;max-width:400px;">
       <img src="~/@/assets/tomato/Final1.png" style="width:400px;max-width:100%" alt="">
       <div class="desc" style="text-shadow:unset!important;color:black;">
       <br>
@@ -136,7 +136,7 @@
       </div>
     </div>
     
-    <div class="charbox" style="margin:0rem 1rem;">
+    <div class="charbox" style="margin:0rem 1rem;max-width:400px;">
       <img src="~/@/assets/tomato/Final3.png" style="width:400px;max-width:100%" alt="">
       <div class="desc" style="text-shadow:unset!important;color:black;">
       <br>
