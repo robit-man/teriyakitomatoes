@@ -1,65 +1,163 @@
 <template>
   <div class="full-wrapper">
-<!--  <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
-      <div class="button connectwallet">CONNECT WALLET</div>
-</div>-->
+<div class="hero" style="min-height:50vh;width:100vw;background-color:#1e110d;display:flex;flex-flow:column;background-attachment:fixed;justify-content:center;background-blend-mode:soft-light;background-image:url(https://jooinn.com/images/dirt-texture-43.jpg);">
+  <div class="hero-centered" style="margin:auto;text-align:center;">
+   <h1 style="font-size:7rem;">Tomato Verse</h1>
+   <br>
+   <p>He who controls the Sauce Controls the TomatoVerse</p>
+   <br>
+   <h3>COMING SOON...</h3>
+  </div>
+</div>
 
-<div class="row" style="margin:auto;">
 
+<div class="row-wrapper" style="background-color:#ccc;padding:2rem;">
+  <div class="row" style="display:flex;flex-flow:row;justify-content:center;">
+  
+    <div class="charbox" style="margin:0rem 1rem;">
+      <img src="~/@/assets/tomato/Final2.png" style="width:400px;max-width:100%" alt="">
+      <div class="desc" style="text-shadow:unset!important;color:black;">
+      <br>
+  <h3 style="text-shadow:unset!important;">Beefstake Bros</h3>
+  <br>
+<div class="row" style="justify-content:space-between;">
+  <div class="chartitle">  
+  <p>Total Population</p>
+  <p>Trooper Population</p>
+  <p>Faction Power</p>
+  <p>Faction Prosperity</p>
+</div>
+  <div class="charval">
+  <p>1500</p>
+  <p>0</p>
+  <p>0</p>
+  <p>0</p></div>
+</div>
 
-    <div class="gladiators">
-      <img src="~/@/assets/muscle_guy_sil.png" alt="">
-    <img class="nodesktop" src="~/@/assets/fat_guy_sil.png" alt="">
-
+      </div>
     </div>
-
-    <div class="whitelist" style="width:512px;max-width:calc(100vw - 2rem);margin:auto;"> 
-     <h1 class="parallaxtop">CHICKEN GLADIATORS</h1><br>
-      <h2 style="">10,000 Unique NFTs <br>Prepare for Battle in the <b>P2E</b> Arena!</h2><br>
-        <div class="gladiators2">
-      <img src="~/@/assets/muscle_guy_sil.png" alt="">
-    <img src="~/@/assets/fat_guy_sil.png" alt="">
-
-    </div>
-     <h1 style="">OG Whitelist: <b style="color:indianred;"><br class="nodesktop">OPEN NOW!</b></h1><br>
-<p>
-           Only 100 Spots Max
-</p>    <br>
-
-     <div class="button joinbutton" >JOIN WHITELIST</div>
-     <br>
-     <br>
-     <h2>CLOSES IN: <br>
-        <Countdown deadline="April 1, 2022"></Countdown>    </h2>
-
-        <br>
-        <br>
-<p>
-    Watch our social for further updates... 
-    <br><br></p>
     
-    <div style="display:flex;margin:auto;flex-flow:row;justify-content:center;">
-    <a target="_blank" href="https://twitter.com/ChickenGladsNFT"><img class="socialicon" src="~/@/assets/twitter.svg" alt=""></a>
-    <a target="_blank" href="https://discord.gg/hXGhBRrcMn"><img class="socialicon" src="~/@/assets/discord.svg" alt=""></a>
+    <div class="charbox" style="margin:0rem 1rem;">
+      <img src="~/@/assets/tomato/Final1.png" style="width:400px;max-width:100%" alt="">
+      <div class="desc" style="text-shadow:unset!important;color:black;">
+      <br>
+  <h3 style="text-shadow:unset!important;" >Cherry Cuties</h3>
+  <br>
+<div class="row" style="justify-content:space-between;">
+  <div class="chartitle">
+  <p>Total Population</p>
+  <p>Trooper Population</p>
+  <p>Faction Power</p>
+  <p>Faction Prosperity</p></div>
+  <div class="charval">
+  <p>1500</p>
+  <p>0</p>
+  <p>0</p>
+  <p>0</p></div>
+</div>
+
+      </div>
+    </div>
     
+    <div class="charbox" style="margin:0rem 1rem;">
+      <img src="~/@/assets/tomato/Final3.png" style="width:400px;max-width:100%" alt="">
+      <div class="desc" style="text-shadow:unset!important;color:black;">
+      <br>
+  <h3 style="text-shadow:unset!important;">Heirloom Hunks</h3>
+  <br>
+<div class="row" style="justify-content:space-between;">
+  <div class="chartitle">
+  <p>Total Population</p>
+  <p>Trooper Population</p>
+  <p>Faction Power</p>
+  <p>Faction Prosperity</p></div>
+  <div class="charval">
+  <p>1500</p>
+  <p>0</p>
+  <p>0</p>
+  <p>0</p></div>
+</div>
+
+      </div>
     </div>
-        <br>
-
-
-
-    </div>
-    <div class="gladiators" >
-    <img class="nomobile" src="~/@/assets/fat_guy_sil.png" alt="">
-
-    </div>
-
-    <br>
-    <br>
+  </div>
 
 </div>
 
-<div class="about-text">
+
+<div class="descwrap" style="padding:2rem;">
+<div class="desctitle" style="width:1080px;margin:auto;"><br><br> <h1 style=" text-align:center;font-size:5rem;color:red;">Welcome To The Tomatoverse </h1><br><br>
+<p style="color:black;">The TomatoVerse is a competitive community NFT game on the Ethereum blockchain. </p><br>
+<p style="color:black;">Each Tomato NFT will grant access to one of three factions. The three factions will compete against each other in battles, with the winning faction being rewarded with the most Sauce NFTs. Tomato holders will be able to use these Sauce NFTs in a variety of ways to benefit themselves or their faction. </p>
+<br><p style="color:black;">There are no rules in the TomatoVerse, and therefore factions will need to cooperate and self-organize to become the greatest faction.</p>
+<br><p>The goal is to use sustainable NFT inflation mechanics to allow for a unique NFT experience. 
+</p>
+
+</div>
+</div>
+
+
+
+<div class="row-wrapper" style="background-color:#ccc;padding:2rem;">
+<br><br> <h3 style=" text-align:center;font-size:3rem;color:white;">The TomatoVerse NFT Ecosystem </h3><br><br><br>
+  <div class="row" style="display:flex;flex-flow:row;justify-content:center;">
+  
+    <div class="charbox" style="margin:0rem 1rem;">
+      <img src="~/@/assets/tomato/Final2.png" style="width:400px;max-width:100%" alt="">
+      <div class="desc" style="text-shadow:unset!important;color:black;">
+      <br>
+  <h3 style="text-shadow:unset!important;">Tomato Villagers</h3>
+  <br>
+  <ul>
+  <li>Grants membership to factions</li>
+  <li>Eligible for faction battle Sauce rewards
+</li>
+  <li>Max 4500 supply
+</li></ul>
+
+      </div>
     </div>
+    
+    <div class="charbox" style="margin:0rem 1rem;">
+      <img src="~/@/assets/tomato/Final1.png" style="width:400px;max-width:100%" alt="">
+      <div class="desc" style="text-shadow:unset!important;color:black;">
+      <br>
+  <h3 style="text-shadow:unset!important;" >Tomato Troopers</h3>
+  <br>
+  <ul>
+  <li>Grants membership to factions</li>
+  <li>Grants the ability to participate in PvP duels
+
+</li>
+  <li>Can be minted using Sauce NFTs + a Villager
+
+</li></ul>
+
+      </div>
+    </div>
+    
+    <div class="charbox" style="margin:0rem 1rem;">
+      <img src="~/@/assets/tomato/Final3.png" style="width:400px;max-width:100%" alt="">
+      <div class="desc" style="text-shadow:unset!important;color:black;">
+      <br>
+  <h3 style="text-shadow:unset!important;">The Sauce</h3>
+  <br>
+  <ul>
+  <li>Only obtained via winning faction battles
+</li>
+  <li>Burned upon use 
+
+</li>
+  <li>Can be used to mint Troopers, level a Trooper, or improve the prosperity of a faction
+
+</li></ul>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
 
 
     </div>
@@ -67,7 +165,6 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import Countdown from 'vuejs-countdown'
 export default {
   data() {
     return {
@@ -79,50 +176,16 @@ export default {
     };
   },
  components: {
-   Countdown,
     
   },
 };
 </script>
 <style scoped>
-h2{font-size:1.5rem;}
-p{max-width:calc(100vw - 4rem);margin:auto;}
-.parallax-card.front{
-    width: max-content!important;
-    height: fit-content!important;min-height:200px;}
-.parallaxtoph1{text-align:center;color:white!important;font-size:4rem;}
-.gladiators{width:30%;display:flex;flex-flow:wrap;
-justify-content:center;}
-.gladiators2{display:none;flex-flow:wrap;
-justify-content:center;}
-  .gladiators > img{transition:all 0.2s ease;margin:auto;max-width:100%;}
-  .gladiators > img:hover{transform:scale(1.1);}  .gladiators2 > img{transition:all 0.2s ease;margin:auto;max-width:512px;}
-  .gladiators2 > img:hover{transform:scale(1.1);}
-.whitelist{text-align:center;}
-.socialicon{width:64px;margin-left:1rem;margin-right:1rem;transition:all 0.2s ease;}
-.socialicon:hover{transform:scale(1.1);}
-.parallaxtop{font-size:4rem;padding-top:1rem;}  .nodesktop{display:none;}
-  .row{height:100%;}
 
-.joinbutton{padding: 1rem;
-border-radius: 0.25rem;
-color: black;transition:all 0.2s ease;background-color:gold;border:unset;font-size:1.5rem;box-shadow:0px 4px black,0px 4px 10px rgba(0,0,0,0.2);}
-.joinbutton:hover{background-color:black;transform:scale(1.1);border:unset;font-size:1.5rem;box-shadow:0px 2px black,0px 2px 10px rgba(0,0,0,0.2);color:gold;}
-.connectwallet{background-color:transparent;border:1px solid white;box-shadow:0px 2px black;color:white;margin-bottom:2rem;transition:all 0.2s ease;}
-.connectwallet:hover{background-color:white;border:1px solid white;box-shadow:0px 2px black;color:black;}
-@media screen and (max-width:600px) {.gladiators2{display:flex;flex-flow:wrap;
-justify-content:center;}
-  .nomobile{display:none;}
-  .nodesktop{display:block;}h2{font-size:1rem;}
-  h1{font-size:2rem!important;max-width:calc(100vw - 4rem);margin:auto;}
-   .gladiators{display:none;flex-flow:row;justify-content:center;}
-  .gladiators > img{margin:auto 2rem;max-height:128px;}  .gladiators2 > img{margin:auto 2rem;max-height:128px;}
-  .row{flex-flow:column;}  .gladiators2{display:flex;flex-flow:row;}
-.parallaxtop{transition:all 0.2s ease;padding-top:2rem;}
-.parallaxtoph1{text-align:center!important;margin:auto;color:white!important;font-size:2rem!important;padding-top:40px;}
 
-}.hasEffect {
-  cursor: pointer;
+
+@media screen and (max-width:600px) {
+
 }
 </style>
 
