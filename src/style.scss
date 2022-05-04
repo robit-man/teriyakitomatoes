@@ -3,12 +3,13 @@
 @import './assets/fonts/iconfont.css';
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Marcellus+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-$primary: #fff;
-$secondary: #000;
+$primary: #222;
+$secondary: indianred;
 $trinary: #000;
 $bg-topnav: #52576a;
-$bg-color: #000;
+$bg-color: #efebe8;
 $bg-disabled: #000;
 $text-disabled: #888888;
 
@@ -21,14 +22,31 @@ $border: 1px solid $bg-color;
 @import '~@primer/css/index.scss';
 
 html, body, #app {
-  color: white;
-  font-family: 'Quicksand', sans-serif;
+  color: $primary;
+      font-family: 'Rubik', sans-serif;
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
 
 }
-body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;
+@keyframes tomatoflow{
+  0%{margin-left:-300vw;}
+  33%{margin-left:-200vw;}
+  66%{margin-left:-100vw;}
+  100%{margin-left:0vw;}
+}
+@keyframes spin{
+  0%{transform:rotate(0deg)}
+  100%{transform:rotate(360deg)}
+}
+.menu{position:fixed;width:100%;z-index: 100;
+  .tomatobutton{cursor:pointer;background-color:indianred;transition:all 0.5s ease;border-radius:0.25rem;padding:0.25rem 0.5rem;color:#efebe8;font-family: 'Bangers', cursive;&:hover{background-color:#f94141;}}background:transparent;
+  padding:2rem 2rem;display:flex;flex-flow:row;justify-content:center;border:unset;
+
+  .linkrow{display:flex;flex-flow:row;.menubutton{border-radius:0.25rem;background-color:#1111;color:#222f;margin:auto 0.5rem;font-size:0.75rem;padding:0.25rem 0.5rem;transition:all 0.5s ease;&:hover{color:#222a;}}}
+}
+
+body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;background-color:#efebe8 ;overflow:hidden;
   position:absolute;}
 .logo-center-wrapper{
   margin-bottom:0.5rem;
@@ -86,6 +104,9 @@ body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;
 .data-triangles{
   width:512px;padding:1rem;
   margin-top:-0.7rem;display:flex;flex-flow:wrap;justify-content:center;}
+  .buttoncta{cursor:pointer;font-weight:700;display:flex;flex-flow:wrap;justify-content:center;height:100%;width:200px;background:white;box-shadow:2px 5px 10px rgba(0,0,0,0.1);border-radius:0.25rem;
+    .arrow{transition:all 0.5s ease;}
+  &:hover{.arrow{transform:translatex(10px);}}}
 .triangle-module{
   overflow:visible;
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -104,7 +125,7 @@ background-repeat:no-repeat;margin-bottom: -31px;
   &:nth-child(4){margin-top: 24px;transform:rotate(180deg);  
     img{transform:rotate(180deg);}}
 img{height:64px!important;margin:auto;margin-bottom:46px;}}
-.toast{       font-family: 'Quicksand', sans-serif;
+.toast{           font-family: 'Rubik', sans-serif;
   background-color:transparent!important;
   position:fixed;left:0px;top:0px;
   line-height:24px;padding-left:32px;
@@ -154,13 +175,13 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
   min-height: 100vh;
   overflow: hidden;
 }
-h1{ font-size:3rem;  text-shadow:2px 2px black; font-family: 'Bangers', cursive;}
-h2, h3 { font-size:2rem;text-shadow:2px 2px black;
-   font-family: 'Quicksand', sans-serif;
+h1{ font-size:3rem;   font-family: 'Bangers', cursive;}
+h2, h3 { font-size:2rem;
+       font-family: 'Rubik', sans-serif;
   font-weight:800;
 }
 .button {
-   font-family: 'Quicksand', sans-serif;
+       font-family: 'Rubik', sans-serif;
   font-weight:800;
 }
 
@@ -177,7 +198,7 @@ h6 {
 
 a {
   cursor: pointer;
-  color: white;
+  color: $primary;
 
   &:hover {
     text-decoration: none;
