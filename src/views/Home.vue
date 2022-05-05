@@ -5,14 +5,14 @@
     backdrop-filter: blur(7px);height:100vh;width:100vw;z-index:50;display:flex;flex-flow:column;justify-content:center;">     
   
   <img src="~/@/assets/tomato/tomato.png" style="
-    height: max-content;width:auto;
-    max-width:100rem;z-index:10;margin:0rem  auto;
-    max-height:30vh;
+    height:100%;width:auto;
+   z-index:10;margin:0rem  auto;
+    max-height:23vh;
     image-rendering: -webkit-optimize-contrast;" alt="">
  
   <img src="~/@/assets/tomato/verse.png" style="
-    height: max-content;width:auto;
-   max-width:100rem;z-index:10;margin:0rem auto;max-height:30vh;
+    height:100%;width:auto;
+   z-index:10;margin:0rem auto;max-height:20vh;
     image-rendering: -webkit-optimize-contrast;" alt="">
 
  <img src="~/@/assets/tomato/VINES.png" style="
