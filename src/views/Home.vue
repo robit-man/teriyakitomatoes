@@ -8,11 +8,11 @@
     height:100%;width:auto;
    z-index:10;margin:0rem  auto;
     max-height:23vh;
-    image-rendering: -webkit-optimize-contrast;" alt="">
+    image-rendering: -webkit-optimize-contrast;margin-left:15vw;" alt="">
  
   <img src="~/@/assets/tomato/verse.png" style="
     height:100%;width:auto;
-   z-index:10;margin:0rem auto;max-height:20vh;
+   z-index:10;margin:0rem auto;max-height:20vh;margin-left:15vw;
     image-rendering: -webkit-optimize-contrast;" alt="">
 
  <img src="~/@/assets/tomato/VINES.png" style="
@@ -22,7 +22,7 @@
  </div>
 
   <div class="background-scroller" style="position:fixed;bottom:0px;">
-  <div class="tomatorow" style="height:100vh;width:400vw;overflow:visible;display:flex;flex-flow:row;animation:tomatoflow 30s linear infinite;opacity:0.5;">
+  <div class="tomatorow" style="height:100vh;width:400vw;overflow:visible;display:flex;flex-flow:row;animation:tomatoflow 15s ease infinite;opacity:0.5;">
     <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/1.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
     <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/3.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
     <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/2.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
