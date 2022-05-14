@@ -17,18 +17,15 @@
 
  <img src="~/@/assets/tomato/VINES.png" style="
     image-rendering: -webkit-optimize-contrast;width:100vh;margin:unset; transform:rotate(-90deg);transform=origin:bottom left; position: absolute;
-    bottom: 29vh;
+    bottom: 29vh; 
     left: -21vw;image-rendering: -webkit-optimize-contrast;" alt="">
- </div>
+ </div> 
 
   <div class="background-scroller" style="position:fixed;bottom:0px;">
-  <div class="tomatorow" style="height:100vh;width:400vw;overflow:visible;display:flex;flex-flow:row;animation:tomatoflow 15s ease infinite;opacity:0.5;">
-    <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/1.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
-    <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/3.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
-    <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/2.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
-    <div style="width:100vw;display:flex;flex-flow:wrap;justify-content:center;"><img src="~/@/assets/tomato/1.png" style="position:relative;bottom:0px;height: 100%;" alt=""></div>
-
-
+  <div class="tomatorow" style="height:100vh;width:400vw;overflow:visible;display:flex;flex-flow:row;opacity:0.5;">
+    <div style="width:100vw;display:flex;flex-flow:wrap; justify-content:center;"><img src="~/@/assets/tomato/winktransdelay.gif" style="position:relative;bottom:0px;height: 100%;right: 0px;
+position: fixed;" alt=""></div>
+  
   </div>
 
   </div>
