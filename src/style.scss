@@ -35,6 +35,16 @@ html, body, #app {
   66%{margin-left:-70vw;}
   100%{margin-left:30vw;}
 }
+@keyframes discordjump{
+  0%{transform: translatey(0%)rotate(0deg);background:transparent;}
+  10%{transform: translatey(-200%)rotate(0deg);background:rgb(182, 176, 232);padding:1rem;height:5rem;width:5rem;border-radius:100%;}
+  33%{transform: translatey(-200%)rotate(400deg);background:rgb(182, 176, 232);padding:1rem;height:5rem;width:5rem;border-radius:100%;}
+  66%{transform: translatey(-200%)rotate(320deg);background:rgb(182, 176, 232);padding:1rem;height:5rem;width:5rem;border-radius:100%;}
+  100%{transform: translatey(0%)rotate(360deg);background:transparent;}
+}
+.mint-cta-box:hover{
+  .discordhead{border-radius:100%;animation:discordjump 2s ease 1;}
+}
 @keyframes spin{
   0%{transform:rotate(0deg)}
   100%{transform:rotate(360deg)}
@@ -89,14 +99,22 @@ body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;b
   margin:2rem 0rem 0.5rem 0rem;
   font-size:5rem;
   line-height:3rem;}
+@keyframes backflow {
 
+  0%{background-position-y: 0px;}
+  100%{background-position-y: 600px;}
+  
+}
   .data-title{ padding:1rem 0rem;  font-family: 'Space Mono', monospace!important;
     letter-spacing:1px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}
-.full-wrapper{  background-color: beige;
+.full-wrapper{ background-size:600px; background-color: white;animation:backflow 5s linear infinite;
   background-blend-mode: luminosity;background-image:url('./assets/vine.svg');
   display:flex;flex-flow:column;overflow-y:auto;height:100vh;overflow-x:hidden;
  
    }
+   
+   .nobg{background:none!important;}
+   .soon{opacity:0.5;pointer-events:none;}
 .copy-icon{clip-path: circle(50% at 50% 50%);
   position:absolute;
   top:0px;
